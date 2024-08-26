@@ -1,4 +1,29 @@
+body {
+  background-color: rgb(34, 37, 42);
+  color: white;
+  font-size: large;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(60, 65, 73);
+  color: white;
+  transition: all 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(85, 91, 102);
+}
+
+button:disabled {
+  cursor: default;
+  background-color: rgb(38, 40, 46);
+  color: rgb(162, 162, 162);
 }
